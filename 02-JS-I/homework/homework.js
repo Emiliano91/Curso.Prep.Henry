@@ -270,7 +270,7 @@ function esVocal(letra){
   var i = "i";
   var o = "o";
   var u = "u";
-  if (letra == a || letra == e || letra == i || letra == o || letra == u && letra.length == 1)
+  if (letra === a || letra === e || letra === i || letra === o || letra === u && letra.length === 1)
   {
     var msj1 = "Es vocal";
     return msj1;
